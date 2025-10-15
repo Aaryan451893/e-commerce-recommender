@@ -1,7 +1,7 @@
 # E-commerce Product Recommender (Demo)
 
 An interactive Next.js app that recommends products based on user likes using:
-- Pretrained text embeddings for similarity (Vercel AI SDK)
+- Pretrained text embeddings for similarity 
 - LLM-generated explanations for “Why this product?”
 
 ## Features
@@ -12,7 +12,6 @@ An interactive Next.js app that recommends products based on user likes using:
 
 ## Tech
 - Next.js App Router (Next.js runtime)
-- Vercel AI SDK (`embed`, `generateText`)
 - In-memory catalog (swap to a real DB like Supabase or Neon later)
 
 ## API
@@ -22,7 +21,6 @@ An interactive Next.js app that recommends products based on user likes using:
 ## Notes
 - Embeddings: `openai/text-embedding-3-small`
 - Explanations: `openai/gpt-5-mini`
-- The demo runs fully in v0 preview; persistence is in-memory.
 
 ## Demo Video
 Add a short screen recording of the /recommender flow (catalog → like → recommend) here.
